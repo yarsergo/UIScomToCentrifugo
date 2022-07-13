@@ -10,10 +10,12 @@
 обрабатывается JSON-тело запроса и переотправляется HTTP-запросом на сервер Centrifugo.
 
 ### Константы:
+
 * Сервер Centrifugo  - в локальной сети <ИмяКомп:8000>
 * API KEY Centrifugo - "api-key" настраивается в файле config.json
 
 ### Поля, которые передаются в канал Centrifugo:
+* Только для входящих звонков (**"direction"**:"in")
 + **"channel"**: 4 последние цифры от поля "Номер" (virtual_phone_number)
 + **"text"**: "ЗвонящийНомер" (called_phone_number) 
 + **"user"**: "ВызываемыйНомер" (calling_phone_number)
