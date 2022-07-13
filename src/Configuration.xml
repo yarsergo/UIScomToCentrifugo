@@ -49,7 +49,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>Bigam</Vendor>
-			<Version>0.7.12</Version>
+			<Version>0.7.13.16</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -200,21 +200,27 @@
 			<DefaultInterface/>
 			<DefaultStyle/>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
-			<BriefInformation/>
+			<BriefInformation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Трансформатор hs-post UIScom&gt;&gt;Centrifugo</v8:content>
+				</v8:item>
+			</BriefInformation>
 			<DetailedInformation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>База для переотправки внешних уведомлений по звонкам от UIScom, которые поступают через HTTP-сервис, обрабатываются JSON и отправляется HTTP-запросом в Centrifugo - только номер входящего звонка в Канал Оператора. см. ИсторияЗвонков.</v8:content>
+					<v8:content>Трансформатор уведомлений по звонкам от UIScom через http-сервис, обрабатываются и переотправляются POST-запросом на сервер Centrifugo в Канал Оператора Звонкового Центра. 
+Данные Сохраняются в рег.сведений ИсторияЗвонков.</v8:content>
 				</v8:item>
 			</DetailedInformation>
 			<Copyright/>
-			<VendorInformationAddress>
+			<VendorInformationAddress/>
+			<ConfigurationInformationAddress>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>bigam.ru</v8:content>
+					<v8:content>https://github.com/yarsergo/UIScomToCentrifugo</v8:content>
 				</v8:item>
-			</VendorInformationAddress>
-			<ConfigurationInformationAddress/>
+			</ConfigurationInformationAddress>
 			<DataLockControlMode>Managed</DataLockControlMode>
 			<ObjectAutonumerationMode>NotAutoFree</ObjectAutonumerationMode>
 			<ModalityUseMode>DontUse</ModalityUseMode>
