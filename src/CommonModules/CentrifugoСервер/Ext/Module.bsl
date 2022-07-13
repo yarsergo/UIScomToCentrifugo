@@ -27,9 +27,10 @@
  // {
  //    "method": "publish",
  //    "params": {
- //        "channel": "chat", 
+ //        "channel": "news", 
  //        "data": {
- //            "text": "hello"
+ //             "text": "Hello World!",
+ //				"user": "UIScom"	
  //        }
  //    } 
  // }		
@@ -98,12 +99,11 @@
 	 	 
 	 Ресурс = "/api";
 	 Таймаут = 300;
-	// ЗащищенноеСоединение = Новый ЗащищенноеСоединениеOpenSSL;
-	 HTTP =  Новый HTTPСоединение(Сервер, , , , , Таймаут); //, ЗащищенноеСоединение);
+	 HTTP =  Новый HTTPСоединение(Сервер, , , , , Таймаут); 
 	 
 	 ЗаголовокHTTP = Новый Соответствие();
 	 ЗаголовокHTTP.Вставить("Content-Type", "application/json");   
-	 ЗаголовокHTTP.Вставить("Authorization","apikey " + apikey);  // ОБЯЗАТЕЛЬНО!
+	 ЗаголовокHTTP.Вставить("Authorization", "apikey " + apikey);  // ОБЯЗАТЕЛЬНО!
 	 ЗаголовокHTTP.Вставить("Content-Length", формат(стрДлина(ТекстJSON), "ЧДЦ=; ЧН=0; ЧГ=0") );
 	 ЗаголовокHTTP.Вставить("Host", "localhost:8000");  // в локальной сети!
 	 ЗаголовокHTTP.Вставить("User-Agent", "Enterprise1S/8.3");

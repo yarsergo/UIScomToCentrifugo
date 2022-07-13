@@ -18,32 +18,54 @@
 	<ChildItems>
 		<InputField name="Период" id="1">
 			<DataPath>Запись.Period</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата и время звонка</v8:content>
+				</v8:item>
+			</Title>
+			<Font bold="true" kind="AutoFont"/>
 			<ContextMenu name="ПериодКонтекстноеМеню" id="2"/>
 			<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="3"/>
 		</InputField>
+		<InputField name="ВремяНачала" id="25">
+			<DataPath>Запись.ВремяНачала</DataPath>
+			<ContextMenu name="ВремяНачалаКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="ВремяНачалаРасширеннаяПодсказка" id="27"/>
+		</InputField>
 		<InputField name="Номер" id="4">
 			<DataPath>Запись.Номер</DataPath>
+			<ClearButton>true</ClearButton>
+			<Mask>99999999999</Mask>
+			<Font bold="true" kind="AutoFont"/>
 			<ContextMenu name="НомерКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="6"/>
 		</InputField>
 		<CheckBoxField name="Входящий" id="7">
 			<DataPath>Запись.Входящий</DataPath>
-			<CheckBoxType>Auto</CheckBoxType>
+			<CheckBoxType>Tumbler</CheckBoxType>
 			<ContextMenu name="ВходящийКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="ВходящийРасширеннаяПодсказка" id="9"/>
 		</CheckBoxField>
 		<InputField name="ИдСессии" id="10">
 			<DataPath>Запись.ИдСессии</DataPath>
+			<OpenButton>true</OpenButton>
 			<ContextMenu name="ИдСессииКонтекстноеМеню" id="11"/>
 			<ExtendedTooltip name="ИдСессииРасширеннаяПодсказка" id="12"/>
 		</InputField>
 		<InputField name="ЗвонящийНомер" id="13">
 			<DataPath>Запись.ЗвонящийНомер</DataPath>
+			<ClearButton>true</ClearButton>
+			<Mask>99999999999</Mask>
+			<Font bold="true" kind="AutoFont"/>
 			<ContextMenu name="ЗвонящийНомерКонтекстноеМеню" id="14"/>
 			<ExtendedTooltip name="ЗвонящийНомерРасширеннаяПодсказка" id="15"/>
 		</InputField>
 		<InputField name="ВызываемыйНомер" id="16">
 			<DataPath>Запись.ВызываемыйНомер</DataPath>
+			<ClearButton>true</ClearButton>
+			<Mask>99999999999</Mask>
+			<Font bold="true" kind="AutoFont"/>
 			<ContextMenu name="ВызываемыйНомерКонтекстноеМеню" id="17"/>
 			<ExtendedTooltip name="ВызываемыйНомерРасширеннаяПодсказка" id="18"/>
 		</InputField>
@@ -58,33 +80,43 @@
 			<ContextMenu name="КаналКонтекстноеМеню" id="23"/>
 			<ExtendedTooltip name="КаналРасширеннаяПодсказка" id="24"/>
 		</InputField>
-		<InputField name="ВремяНачала" id="25">
-			<DataPath>Запись.ВремяНачала</DataPath>
-			<ContextMenu name="ВремяНачалаКонтекстноеМеню" id="26"/>
-			<ExtendedTooltip name="ВремяНачалаРасширеннаяПодсказка" id="27"/>
-		</InputField>
 		<InputField name="Длительность" id="28">
 			<DataPath>Запись.Длительность</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Общая длительность, сек</v8:content>
+				</v8:item>
+			</Title>
+			<SpinButton>true</SpinButton>
 			<ContextMenu name="ДлительностьКонтекстноеМеню" id="29"/>
 			<ExtendedTooltip name="ДлительностьРасширеннаяПодсказка" id="30"/>
 		</InputField>
 		<InputField name="ВремяОжидания" id="31">
 			<DataPath>Запись.ВремяОжидания</DataPath>
+			<SpinButton>true</SpinButton>
 			<ContextMenu name="ВремяОжиданияКонтекстноеМеню" id="32"/>
 			<ExtendedTooltip name="ВремяОжиданияРасширеннаяПодсказка" id="33"/>
 		</InputField>
-		<InputField name="СсылкаНаЗапись" id="34">
-			<DataPath>Запись.СсылкаНаЗапись</DataPath>
-			<ContextMenu name="СсылкаНаЗаписьКонтекстноеМеню" id="35"/>
-			<ExtendedTooltip name="СсылкаНаЗаписьРасширеннаяПодсказка" id="36"/>
-		</InputField>
 		<InputField name="ДлительностьЗаписи" id="37">
 			<DataPath>Запись.ДлительностьЗаписи</DataPath>
+			<SpinButton>true</SpinButton>
 			<ContextMenu name="ДлительностьЗаписиКонтекстноеМеню" id="38"/>
 			<ExtendedTooltip name="ДлительностьЗаписиРасширеннаяПодсказка" id="39"/>
 		</InputField>
+		<InputField name="СсылкаНаЗапись" id="34">
+			<DataPath>Запись.СсылкаНаЗапись</DataPath>
+			<OpenButton>true</OpenButton>
+			<ContextMenu name="СсылкаНаЗаписьКонтекстноеМеню" id="35"/>
+			<ExtendedTooltip name="СсылкаНаЗаписьРасширеннаяПодсказка" id="36"/>
+			<Events>
+				<Event name="Opening">СсылкаНаЗаписьОткрытие</Event>
+			</Events>
+		</InputField>
 		<InputField name="ТелоЗапроса" id="40">
 			<DataPath>Запись.ТелоЗапроса</DataPath>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<MultiLine>true</MultiLine>
 			<ContextMenu name="ТелоЗапросаКонтекстноеМеню" id="41"/>
 			<ExtendedTooltip name="ТелоЗапросаРасширеннаяПодсказка" id="42"/>
 		</InputField>
