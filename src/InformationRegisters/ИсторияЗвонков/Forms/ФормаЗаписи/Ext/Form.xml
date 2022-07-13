@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="Послать" id="43">
+				<Type>CommandBarButton</Type>
+				<Representation>PictureAndText</Representation>
+				<CommandName>Form.Command.Послать</CommandName>
+				<Picture>
+					<xr:Ref>StdPicture.AppearanceUpInclineArrowGreen</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<ExtendedTooltip name="ПослатьРасширеннаяПодсказка" id="44"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<InputField name="Период" id="1">
+			<DataPath>Запись.Period</DataPath>
+			<ContextMenu name="ПериодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Номер" id="4">
+			<DataPath>Запись.Номер</DataPath>
+			<ContextMenu name="НомерКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<CheckBoxField name="Входящий" id="7">
+			<DataPath>Запись.Входящий</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ВходящийКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ВходящийРасширеннаяПодсказка" id="9"/>
+		</CheckBoxField>
+		<InputField name="ИдСессии" id="10">
+			<DataPath>Запись.ИдСессии</DataPath>
+			<ContextMenu name="ИдСессииКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ИдСессииРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="ЗвонящийНомер" id="13">
+			<DataPath>Запись.ЗвонящийНомер</DataPath>
+			<ContextMenu name="ЗвонящийНомерКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ЗвонящийНомерРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="ВызываемыйНомер" id="16">
+			<DataPath>Запись.ВызываемыйНомер</DataPath>
+			<ContextMenu name="ВызываемыйНомерКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="ВызываемыйНомерРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<CheckBoxField name="Отправлен" id="19">
+			<DataPath>Запись.Отправлен</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ОтправленКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="ОтправленРасширеннаяПодсказка" id="21"/>
+		</CheckBoxField>
+		<InputField name="Канал" id="22">
+			<DataPath>Запись.Канал</DataPath>
+			<ContextMenu name="КаналКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="КаналРасширеннаяПодсказка" id="24"/>
+		</InputField>
+		<InputField name="ВремяНачала" id="25">
+			<DataPath>Запись.ВремяНачала</DataPath>
+			<ContextMenu name="ВремяНачалаКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="ВремяНачалаРасширеннаяПодсказка" id="27"/>
+		</InputField>
+		<InputField name="Длительность" id="28">
+			<DataPath>Запись.Длительность</DataPath>
+			<ContextMenu name="ДлительностьКонтекстноеМеню" id="29"/>
+			<ExtendedTooltip name="ДлительностьРасширеннаяПодсказка" id="30"/>
+		</InputField>
+		<InputField name="ВремяОжидания" id="31">
+			<DataPath>Запись.ВремяОжидания</DataPath>
+			<ContextMenu name="ВремяОжиданияКонтекстноеМеню" id="32"/>
+			<ExtendedTooltip name="ВремяОжиданияРасширеннаяПодсказка" id="33"/>
+		</InputField>
+		<InputField name="СсылкаНаЗапись" id="34">
+			<DataPath>Запись.СсылкаНаЗапись</DataPath>
+			<ContextMenu name="СсылкаНаЗаписьКонтекстноеМеню" id="35"/>
+			<ExtendedTooltip name="СсылкаНаЗаписьРасширеннаяПодсказка" id="36"/>
+		</InputField>
+		<InputField name="ДлительностьЗаписи" id="37">
+			<DataPath>Запись.ДлительностьЗаписи</DataPath>
+			<ContextMenu name="ДлительностьЗаписиКонтекстноеМеню" id="38"/>
+			<ExtendedTooltip name="ДлительностьЗаписиРасширеннаяПодсказка" id="39"/>
+		</InputField>
+		<InputField name="ТелоЗапроса" id="40">
+			<DataPath>Запись.ТелоЗапроса</DataPath>
+			<ContextMenu name="ТелоЗапросаКонтекстноеМеню" id="41"/>
+			<ExtendedTooltip name="ТелоЗапросаРасширеннаяПодсказка" id="42"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Запись" id="1">
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.ИсторияЗвонков</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Послать" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Послать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Послать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Послать</Action>
+		</Command>
+	</Commands>
+</Form>
