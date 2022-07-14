@@ -156,6 +156,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Послать</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
 </Form>
