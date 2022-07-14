@@ -16,14 +16,14 @@
 		</ChildItems>
 	</AutoCommandBar>
 	<ChildItems>
+		<CheckBoxField name="Входящий" id="7">
+			<DataPath>Запись.Входящий</DataPath>
+			<CheckBoxType>Tumbler</CheckBoxType>
+			<ContextMenu name="ВходящийКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ВходящийРасширеннаяПодсказка" id="9"/>
+		</CheckBoxField>
 		<InputField name="Период" id="1">
 			<DataPath>Запись.Period</DataPath>
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Дата и время звонка</v8:content>
-				</v8:item>
-			</Title>
 			<Font bold="true" kind="AutoFont"/>
 			<ContextMenu name="ПериодКонтекстноеМеню" id="2"/>
 			<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="3"/>
@@ -33,6 +33,11 @@
 			<ContextMenu name="ВремяНачалаКонтекстноеМеню" id="26"/>
 			<ExtendedTooltip name="ВремяНачалаРасширеннаяПодсказка" id="27"/>
 		</InputField>
+		<InputField name="ИмяСобытия" id="45">
+			<DataPath>Запись.ИмяСобытия</DataPath>
+			<ContextMenu name="ИмяСобытияКонтекстноеМеню" id="46"/>
+			<ExtendedTooltip name="ИмяСобытияРасширеннаяПодсказка" id="47"/>
+		</InputField>
 		<InputField name="Номер" id="4">
 			<DataPath>Запись.Номер</DataPath>
 			<ClearButton>true</ClearButton>
@@ -41,12 +46,6 @@
 			<ContextMenu name="НомерКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="6"/>
 		</InputField>
-		<CheckBoxField name="Входящий" id="7">
-			<DataPath>Запись.Входящий</DataPath>
-			<CheckBoxType>Tumbler</CheckBoxType>
-			<ContextMenu name="ВходящийКонтекстноеМеню" id="8"/>
-			<ExtendedTooltip name="ВходящийРасширеннаяПодсказка" id="9"/>
-		</CheckBoxField>
 		<InputField name="ИдСессии" id="10">
 			<DataPath>Запись.ИдСессии</DataPath>
 			<OpenButton>true</OpenButton>
@@ -55,6 +54,12 @@
 		</InputField>
 		<InputField name="ЗвонящийНомер" id="13">
 			<DataPath>Запись.ЗвонящийНомер</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Звонящий Номер (Кто)</v8:content>
+				</v8:item>
+			</Title>
 			<ClearButton>true</ClearButton>
 			<Mask>99999999999</Mask>
 			<Font bold="true" kind="AutoFont"/>
@@ -63,6 +68,12 @@
 		</InputField>
 		<InputField name="ВызываемыйНомер" id="16">
 			<DataPath>Запись.ВызываемыйНомер</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вызываемый Номер (Кому)</v8:content>
+				</v8:item>
+			</Title>
 			<ClearButton>true</ClearButton>
 			<Mask>99999999999</Mask>
 			<Font bold="true" kind="AutoFont"/>

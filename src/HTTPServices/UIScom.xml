@@ -15,6 +15,35 @@
 			<SessionMaxAge>20</SessionMaxAge>
 		</Properties>
 		<ChildObjects>
+			<URLTemplate uuid="153d03cd-4357-483d-93f9-78781cff2958">
+				<Properties>
+					<Name>Пинг</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пинг</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/ping</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="d1f6a419-d5bf-4f58-9c06-669ddcc5d1f6">
+						<Properties>
+							<Name>GET</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>GET</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>ПингGET</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
 			<URLTemplate uuid="d9579ca3-06a5-4375-87ed-eaa87b4eb28f">
 				<Properties>
 					<Name>IncomingCall</Name>

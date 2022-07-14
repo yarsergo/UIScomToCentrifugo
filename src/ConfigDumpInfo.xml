@@ -3,24 +3,29 @@
 	<ConfigVersions>
 		<Metadata name="CommonModule.CentrifugoСервер" id="9f56f156-cf19-4650-a05a-b8a2cf36dc4a" configVersion="9b1f49ab39500d458c2abba8fee90bea00000000"/>
 		<Metadata name="CommonModule.CentrifugoСервер.Module" id="9f56f156-cf19-4650-a05a-b8a2cf36dc4a.0" configVersion="f4eb69948287ad48992d025acc756aca00000000"/>
-		<Metadata name="CommonModule.UIScomСервер" id="b5ed01ea-23b3-4c5b-88c7-cde4ad66b7fd" configVersion="9cd0c820f529ae4fbb9a4eb02de28c0200000000"/>
-		<Metadata name="CommonModule.UIScomСервер.Module" id="b5ed01ea-23b3-4c5b-88c7-cde4ad66b7fd.0" configVersion="50ac6544e966e947b64fb013ff024a2d00000000"/>
-		<Metadata name="Configuration.UIScomToCentrifugo" id="c8545757-dbe8-4093-916f-c1db2ca408d9" configVersion="2471b86c2e57ed469a1846e8bacb9c7a00000000"/>
+		<Metadata name="CommonModule.UIScomСервер" id="b5ed01ea-23b3-4c5b-88c7-cde4ad66b7fd" configVersion="27e590a0adc3ed46837127798998a83100000000"/>
+		<Metadata name="CommonModule.UIScomСервер.Module" id="b5ed01ea-23b3-4c5b-88c7-cde4ad66b7fd.0" configVersion="fa8f375540941d4fac66175001b8d54600000000"/>
+		<Metadata name="CommonPicture.UIScomToCentrifugo" id="63f7c8d1-2029-475b-a0a9-532d31a94391" configVersion="cb90ae3b444ea647950f639185665e8a00000000"/>
+		<Metadata name="CommonPicture.UIScomToCentrifugo.Picture" id="63f7c8d1-2029-475b-a0a9-532d31a94391.0" configVersion="9f7bd1850783584b8e49c6bce0b52e4800000000"/>
+		<Metadata name="Configuration.UIScomToCentrifugo" id="c8545757-dbe8-4093-916f-c1db2ca408d9" configVersion="ecf25f74ff0d2c44a24efdf45ee8ab9100000000"/>
 		<Metadata name="Configuration.UIScomToCentrifugo.Logo" id="9cbb9f5c-346f-481c-a0e3-32596311c019.1" configVersion="4079eb28b5d8864a8e850f3bdb4c631b00000000"/>
 		<Metadata name="Configuration.UIScomToCentrifugo.Splash" id="9cbb9f5c-346f-481c-a0e3-32596311c019.2" configVersion="41876e698d18ab4cba9ae1ae19b7378600000000"/>
 		<Metadata name="Constant.APIkeyCentrifugo" id="04886a96-081c-43b6-886f-8bb38733928f" configVersion="e51236a14257f94589a32a4bec6532a300000000"/>
 		<Metadata name="Constant.СерверCentrifugo" id="d81d8793-cefd-44dd-b5ae-32038eb10f72" configVersion="d50adb78715bc742aaa39c4a06ad6c6c00000000"/>
-		<Metadata name="HTTPService.UIScom" id="51e52d1c-7b89-425a-ae6e-7232ef0e7e03" configVersion="7f66b46dc09dbf4bb468ff128f1ae02700000000">
+		<Metadata name="HTTPService.UIScom" id="51e52d1c-7b89-425a-ae6e-7232ef0e7e03" configVersion="09f6328a628a544abbf8ada72e37f64700000000">
+			<Metadata name="HTTPService.UIScom.URLTemplate.Пинг" id="153d03cd-4357-483d-93f9-78781cff2958"/>
 			<Metadata name="HTTPService.UIScom.URLTemplate.RecordEnd.Method.REC" id="52877c15-c677-41e2-9fb7-7d49a5477715"/>
 			<Metadata name="HTTPService.UIScom.URLTemplate.OutcomingCall" id="58d806a2-844f-4d79-8803-ae61f61dead4"/>
 			<Metadata name="HTTPService.UIScom.URLTemplate.IncomingCall.Method.IN" id="5cdaac01-660d-4b23-9f59-2e1c5fb49fa6"/>
 			<Metadata name="HTTPService.UIScom.URLTemplate.RecordEnd" id="9b1ad1a9-6784-4def-a1e6-af8a1aa97da2"/>
 			<Metadata name="HTTPService.UIScom.URLTemplate.OutcomingCall.Method.OUT" id="c786d05a-0478-4ac6-99c2-d711f0e1b787"/>
+			<Metadata name="HTTPService.UIScom.URLTemplate.Пинг.Method.GET" id="d1f6a419-d5bf-4f58-9c06-669ddcc5d1f6"/>
 			<Metadata name="HTTPService.UIScom.URLTemplate.IncomingCall" id="d9579ca3-06a5-4375-87ed-eaa87b4eb28f"/>
 		</Metadata>
-		<Metadata name="HTTPService.UIScom.Module" id="51e52d1c-7b89-425a-ae6e-7232ef0e7e03.0" configVersion="504f313f2a78f9419a3f20d0e5ffaa0200000000"/>
-		<Metadata name="InformationRegister.ИсторияЗвонков" id="6bb9d334-ef5e-4d44-b3ed-3a6d98bda274" configVersion="8c59a5d70612634da6b410764f1e10a400000000">
+		<Metadata name="HTTPService.UIScom.Module" id="51e52d1c-7b89-425a-ae6e-7232ef0e7e03.0" configVersion="5fdde30c4232f3429b4fb73e40c988b500000000"/>
+		<Metadata name="InformationRegister.ИсторияЗвонков" id="6bb9d334-ef5e-4d44-b3ed-3a6d98bda274" configVersion="9923d0c01771c148ba0c447227dfacfa00000000">
 			<Metadata name="InformationRegister.ИсторияЗвонков.Resource.ВремяОжидания" id="09e8ce32-6ffe-4d1d-9e88-690c0132890e"/>
+			<Metadata name="InformationRegister.ИсторияЗвонков.Resource.ИмяСобытия" id="136a3630-9356-429a-aa47-9a3d9a89d5a1"/>
 			<Metadata name="InformationRegister.ИсторияЗвонков.Resource.СсылкаНаЗапись" id="223ae212-041b-4924-92ea-c8003fa6d8b2"/>
 			<Metadata name="InformationRegister.ИсторияЗвонков.Resource.ВызываемыйНомер" id="29471b51-91af-446e-9e2f-d169285503c0"/>
 			<Metadata name="InformationRegister.ИсторияЗвонков.Resource.ДлительностьЗаписи" id="2e74413d-5fa1-463b-a27d-c09313834ca4"/>
@@ -34,9 +39,11 @@
 			<Metadata name="InformationRegister.ИсторияЗвонков.Resource.Канал" id="eb226260-e0ea-45a2-90f0-9bce41774daa"/>
 			<Metadata name="InformationRegister.ИсторияЗвонков.Resource.ВремяНачала" id="fbc9176a-1d74-42cb-9e7a-79e5a3465513"/>
 		</Metadata>
-		<Metadata name="InformationRegister.ИсторияЗвонков.Form.ФормаЗаписи" id="c93496cb-41b5-4a27-8681-9c25f3b433fa" configVersion="797932292a811b4f97f8c2f211aac92300000000"/>
-		<Metadata name="InformationRegister.ИсторияЗвонков.Form.ФормаЗаписи.Form" id="c93496cb-41b5-4a27-8681-9c25f3b433fa.0" configVersion="c4debbf1c0e34a4da83f07ae214da69400000000"/>
+		<Metadata name="InformationRegister.ИсторияЗвонков.Form.ФормаЗаписи" id="c93496cb-41b5-4a27-8681-9c25f3b433fa" configVersion="5415c61bb913b7479f9b0fb1c0d1662a00000000"/>
+		<Metadata name="InformationRegister.ИсторияЗвонков.Form.ФормаЗаписи.Form" id="c93496cb-41b5-4a27-8681-9c25f3b433fa.0" configVersion="918e7535534af54eb08ea69a1c2961d700000000"/>
 		<Metadata name="InformationRegister.ИсторияЗвонков.ManagerModule" id="6bb9d334-ef5e-4d44-b3ed-3a6d98bda274.2" configVersion="246d25daa6d55c489dd36e2391614adb00000000"/>
 		<Metadata name="Language.Русский" id="b982a372-b3e1-48f2-9131-dee5e13bf676" configVersion="64a684f9426e784e99b280f1b1ef074d00000000"/>
+		<Metadata name="Subsystem.UIScom" id="97f147a2-40fd-4b63-a76c-8abe268ef43a" configVersion="84b3435b4a49db49bf1d362edac4903c00000000"/>
+		<Metadata name="Subsystem.UIScom.Help" id="97f147a2-40fd-4b63-a76c-8abe268ef43a.0" configVersion="e807ddd39a7f33499ee272a9ed2110d300000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
