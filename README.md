@@ -12,7 +12,8 @@
 * API KEY Centrifugo - ключ авторизации "api-key" из файла config.json сервера Centrifugo
 
 ### Поля, которые передаются в канал Centrifugo:
-+ **"channel"**: последние 4 цифры от поля "Номер" (virtual_phone_number)
+* Только для входящих звонков (**"direction"**:"in")
++ **"channel"**: 4 последние цифры от поля "Номер" (virtual_phone_number)
 + **"text"**: "ЗвонящийНомер" (called_phone_number) 
 + **"user"**: "ВызываемыйНомер" (calling_phone_number)
 
