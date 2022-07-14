@@ -91,17 +91,36 @@
 // ПОЛЯ УВЕДОМЛЕНИЙ от UIScom описаны на странице https://help.synergycrm.ru/integratsiya-s-uis 
 // подробный API по работе со звонками описан на странице https://comagic.github.io/call-api/
 // (здесь НЕ используется!)
-// 
-// НЕОБРАБАТЫВАЕМЫЕ ПОЛЯ:
-// "connection_time",	  	"ВремяСоединения" // поднятие трубки
+//  
+// ПРИМЕР:
+// {
+// "Start_time":"2016-07-24 23:59:07.863",
+// "notification_name":"Входящий звонок",
+// "direction":"in",
+// "call_session_id":187020303,
+// "extension_phone_number":5648,
 //
-// "notification_name",     "УведомлениеИмя"
-// "notification_mnemonic", "УведомлениеКод"
-// "notification_time",		"УведомлениеВремя"	
+// "virtual_phone_number":74950000001,
+// "called_phone_number":79260000002,
+// "calling_phone_number":79260000001,
 //
-// "scenario_name",  		"Сценарий"
-// "call_source": 			"Ресурс"
-// "employee_phone_number", "Канал"
+// "employee_phone_number":79260000000,
+// "total_time_duration":60,
+// "wait_time_duration":15,
+//
+// "finish_time":"2016-05-06 12:33:33.605",
+// "finish_reason":"no_active_scenario",
+//
+// "is_lost":true,
+// "lost_reason":"Не найден активный сценарий",
+//
+// "full_record_file_link":"https://app.uiscom.ru/system/media/talk/170346666/full/c39e617f91f071ec4c6f8d797de35c26/",
+// "wav_call_records":"file.wav",
+//
+// "call_source":"call_tracking",
+// "scenario_name":"Обзвон по сценарию"
+//
+// }
 // 
 // Возвращаемое значение:
 //  Соответствие - название поля UIScom (в нижнем регистре) или  сопоставляются ВСЕ поля этого регистра сведений!
