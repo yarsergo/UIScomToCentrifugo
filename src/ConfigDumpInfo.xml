@@ -3,13 +3,13 @@
 	<ConfigVersions>
 		<Metadata name="CommonModule.CentrifugoСервер" id="9f56f156-cf19-4650-a05a-b8a2cf36dc4a" configVersion="3a589919bdaba847ba1229cc74f3ee5a00000000"/>
 		<Metadata name="CommonModule.CentrifugoСервер.Module" id="9f56f156-cf19-4650-a05a-b8a2cf36dc4a.0" configVersion="d09d87339b469b4fad1c6da2c1cad98d00000000"/>
-		<Metadata name="CommonModule.UIScomСервер" id="b5ed01ea-23b3-4c5b-88c7-cde4ad66b7fd" configVersion="c7e4d51494233042a984501654c566b300000000"/>
-		<Metadata name="CommonModule.UIScomСервер.Module" id="b5ed01ea-23b3-4c5b-88c7-cde4ad66b7fd.0" configVersion="ec4fc0c9a0f58e4eb5b960cc74c0448b00000000"/>
+		<Metadata name="CommonModule.UIScomСервер" id="b5ed01ea-23b3-4c5b-88c7-cde4ad66b7fd" configVersion="38df4ef77a60554ebdc11ac31751c4fd00000000"/>
+		<Metadata name="CommonModule.UIScomСервер.Module" id="b5ed01ea-23b3-4c5b-88c7-cde4ad66b7fd.0" configVersion="eb18d8cc2b31264f9b451d1511f1351a00000000"/>
 		<Metadata name="CommonPicture.UIScomToCentrifugo" id="63f7c8d1-2029-475b-a0a9-532d31a94391" configVersion="cb90ae3b444ea647950f639185665e8a00000000"/>
 		<Metadata name="CommonPicture.UIScomToCentrifugo.Picture" id="63f7c8d1-2029-475b-a0a9-532d31a94391.0" configVersion="9f7bd1850783584b8e49c6bce0b52e4800000000"/>
 		<Metadata name="CommonTemplate.UIScomУведомления" id="e367f9d4-fa8b-4344-8a17-3b9aa50bd0b8" configVersion="1b752a58185c58498ffe9f4585b5675600000000"/>
 		<Metadata name="CommonTemplate.UIScomУведомления.Template" id="e367f9d4-fa8b-4344-8a17-3b9aa50bd0b8.0" configVersion="260549d8ca0613478d072d41c773eaa100000000"/>
-		<Metadata name="Configuration.UIScomToCentrifugo" id="c8545757-dbe8-4093-916f-c1db2ca408d9" configVersion="f8e9ef286257e142bedb0e379b85a17b00000000"/>
+		<Metadata name="Configuration.UIScomToCentrifugo" id="c8545757-dbe8-4093-916f-c1db2ca408d9" configVersion="e0a0855ccad90e44b3cc11aa08d1232300000000"/>
 		<Metadata name="Configuration.UIScomToCentrifugo.Logo" id="9cbb9f5c-346f-481c-a0e3-32596311c019.1" configVersion="4079eb28b5d8864a8e850f3bdb4c631b00000000"/>
 		<Metadata name="Configuration.UIScomToCentrifugo.Splash" id="9cbb9f5c-346f-481c-a0e3-32596311c019.2" configVersion="41876e698d18ab4cba9ae1ae19b7378600000000"/>
 		<Metadata name="Constant.APIkeyCentrifugo" id="04886a96-081c-43b6-886f-8bb38733928f" configVersion="e51236a14257f94589a32a4bec6532a300000000"/>
