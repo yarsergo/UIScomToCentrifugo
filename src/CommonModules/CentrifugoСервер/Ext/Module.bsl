@@ -126,7 +126,7 @@
 	 ЗаголовокHTTP.Вставить("Content-Type", "application/json");   
 	 ЗаголовокHTTP.Вставить("Authorization", "apikey " + apikey);  // ОБЯЗАТЕЛЬНО!
 	 ЗаголовокHTTP.Вставить("Content-Length", формат(стрДлина(ТекстJSON), "ЧДЦ=; ЧН=0; ЧГ=0") );
-	 ЗаголовокHTTP.Вставить("Host", "localhost:8000");  // в локальной сети!
+	 ЗаголовокHTTP.Вставить("Host", Сервер);  // 20.07.2022
 	 ЗаголовокHTTP.Вставить("User-Agent", "Enterprise1S/8.3");
 	 
 	 ЗаголовокHTTP.Вставить("Accept", "application/json");

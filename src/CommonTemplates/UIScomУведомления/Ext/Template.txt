@@ -127,17 +127,12 @@ URL:  <сервер>/<имябазы>/hs/UIScom/rec
 
 "finish_time":{{finish_time}},
 "finish_reason":{{finish_reason}},
-
-"is_lost":{{is_lost}},
 "lost_reason":{{lost_reason}},
 
 "full_record_file_link": {{full_record_file_link}},
-"wav_call_records": {{wav_call_records}},
 
 "external_id":{{external_id}},
 "call_source":{{call_source}},
 "scenario_name": {{scenario_name}}
-
 }
-
 
