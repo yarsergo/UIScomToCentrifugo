@@ -8,7 +8,7 @@
 				<Representation>PictureAndText</Representation>
 				<CommandName>Form.Command.Послать</CommandName>
 				<Picture>
-					<xr:Ref>StdPicture.AppearanceUpInclineArrowGreen</xr:Ref>
+					<xr:Ref>StdPicture.WriteChanges</xr:Ref>
 					<xr:LoadTransparent>true</xr:LoadTransparent>
 				</Picture>
 				<ExtendedTooltip name="ПослатьРасширеннаяПодсказка" id="44"/>
