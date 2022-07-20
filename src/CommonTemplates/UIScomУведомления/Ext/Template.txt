@@ -1,0 +1,143 @@
+﻿Увведомления UIScom
+POST-запросы, которые отправляются на URL
+ по маске полей JSON, представленные ниже
+
+===IN==============================================
+
+Название: Входящий звонок 
+Тип события: Входящий звонок на виртуальный номер 
+Условие:  Направление звонка = Входящий звонок 
+URL:  <сервер>/<имябазы>/hs/UIScom/in
+ {
+"Start_time":{{start_time}},
+"notification_name":{{notification_name}},
+"direction":{{direction}},
+"call_session_id":{{call_session_id}},
+
+"virtual_phone_number":{{virtual_phone_number}},
+"called_phone_number":{{called_phone_number}},
+"calling_phone_number":{{calling_phone_number}},
+
+"call_source":{{call_source}},
+"scenario_name": {{scenario_name}}
+} 
+
+-----------------------------------------------------
+Название: Начало Входящего звонка 
+Тип события: Начало разговора
+Условие:  Направление звонка = Входящий звонок
+URL:  <сервер>/<имябазы>/hs/UIScom/in
+{
+"Start_time":{{start_time}},
+"notification_name":{{notification_name}},
+"direction":{{direction}},
+"call_session_id":{{call_session_id}},
+
+"extension_phone_number":{{extension_phone_number}},
+"employee_phone_number":{{employee_phone_number}},
+
+"virtual_phone_number":{{virtual_phone_number}},
+"called_phone_number":{{called_phone_number}},
+"calling_phone_number":{{calling_phone_number}},
+"call_source":{{call_source}},
+"scenario_name": {{scenario_name}}
+}
+
+-----------------------------------------------------
+Название: Потерянный звонок 
+Тип события: Потерянный звонок
+URL:  <сервер>/<имябазы>/hs/UIScom/in 
+// без условий - входяищй от клиента, исходящий сброшен клиентом 
+// главное поле - lost_reason
+{
+"Start_time":{{start_time}},
+"notification_name":{{notification_name}},
+"direction":{{direction}},
+"call_session_id":{{call_session_id}},
+
+"virtual_phone_number":{{virtual_phone_number}},
+"called_phone_number":{{called_phone_number}},
+"calling_phone_number":{{calling_phone_number}},
+
+"total_time_duration": {{total_time_duration}},
+"wait_time_duration": {{wait_time_duration}},
+
+"finish_time":{{finish_time}},
+"finish_reason":{{finish_reason}},
+"lost_reason":{{lost_reason}},
+
+"external_id":{{external_id}},
+"call_source":{{call_source}},
+"scenario_name": {{scenario_name}}
+}
+===OUT==============================================
+      
+Название: Исходящий звонок
+Тип события: Исходящий звонок 
+Условие:  Направление звонка = Исходящий звонок 
+URL:  <сервер>/<имябазы>/hs/UIScom/out
+
+{
+"Start_time":{{start_time}},
+"notification_name":{{notification_name}},
+"direction":{{direction}},
+"call_session_id":{{call_session_id}},
+
+"extension_phone_number":{{extension_phone_number}},
+"employee_phone_number":{{employee_phone_number}},
+
+"employee_ids":{{employee_ids}},
+"contact_id": {{contact_id}},
+
+"virtual_phone_number":{{virtual_phone_number}},
+"called_phone_number":{{called_phone_number}},
+"calling_phone_number":{{calling_phone_number}},
+
+"external_id":{{external_id}},
+"call_source":{{call_source}},
+"scenario_name": {{scenario_name}}
+} 
+
+==REC====================================================  
+
+Название: Завершение звонкак
+Тип события: Завершение звонка 
+// без Условий - завершение и Входящего и Исходящего звонка
+// если заполнено lost_reason - это потерянный звонок, сброшен Оператором!
+//
+URL:  <сервер>/<имябазы>/hs/UIScom/rec
+
+{
+"Start_time":{{start_time}},
+"notification_name":{{notification_name}},
+"direction":{{direction}},
+"call_session_id":{{call_session_id}},
+
+"extension_phone_number":{{extension_phone_number}},
+"contact_id": {{contact_id}},
+"employee_ids":{{employee_ids}},
+
+"virtual_phone_number":{{virtual_phone_number}},
+"called_phone_number":{{called_phone_number}},
+"calling_phone_number":{{calling_phone_number}},
+
+"employee_phone_number":{{employee_phone_number}},
+"total_time_duration": {{total_time_duration}},
+"wait_time_duration": {{wait_time_duration}},
+
+"finish_time":{{finish_time}},
+"finish_reason":{{finish_reason}},
+
+"is_lost":{{is_lost}},
+"lost_reason":{{lost_reason}},
+
+"full_record_file_link": {{full_record_file_link}},
+"wav_call_records": {{wav_call_records}},
+
+"external_id":{{external_id}},
+"call_source":{{call_source}},
+"scenario_name": {{scenario_name}}
+
+}
+
+
