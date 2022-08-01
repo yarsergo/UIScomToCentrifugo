@@ -48,9 +48,9 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
-			<Vendor>Bigam</Vendor>
-			<Version>1.0.8.01.1530</Version>
-			<UpdateCatalogAddress/>
+			<Vendor>YarSergo</Vendor>
+			<Version>1.0.8.01.1550</Version>
+			<UpdateCatalogAddress>https://github.com/yarsergo/UIScomToCentrifugo/releases</UpdateCatalogAddress>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
 			<UseOrdinaryFormInManagedApplication>false</UseOrdinaryFormInManagedApplication>
@@ -213,7 +213,12 @@
 Данные Сохраняются в рег.сведений ИсторияЗвонков.</v8:content>
 				</v8:item>
 			</DetailedInformation>
-			<Copyright/>
+			<Copyright>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>07-08.2022</v8:content>
+				</v8:item>
+			</Copyright>
 			<VendorInformationAddress/>
 			<ConfigurationInformationAddress>
 				<v8:item>
