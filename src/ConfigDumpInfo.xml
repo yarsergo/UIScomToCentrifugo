@@ -9,12 +9,12 @@
 		<Metadata name="CommonPicture.UIScomToCentrifugo.Picture" id="63f7c8d1-2029-475b-a0a9-532d31a94391.0" configVersion="9f7bd1850783584b8e49c6bce0b52e4800000000"/>
 		<Metadata name="CommonTemplate.UIScomУведомления" id="e367f9d4-fa8b-4344-8a17-3b9aa50bd0b8" configVersion="1b752a58185c58498ffe9f4585b5675600000000"/>
 		<Metadata name="CommonTemplate.UIScomУведомления.Template" id="e367f9d4-fa8b-4344-8a17-3b9aa50bd0b8.0" configVersion="260549d8ca0613478d072d41c773eaa100000000"/>
-		<Metadata name="Configuration.UIScomToCentrifugo" id="c8545757-dbe8-4093-916f-c1db2ca408d9" configVersion="ec7e6a1ec5645041b5b4f49a2d47a5ba00000000"/>
+		<Metadata name="Configuration.UIScomToCentrifugo" id="c8545757-dbe8-4093-916f-c1db2ca408d9" configVersion="80c7829935407c46b0e786227938122800000000"/>
 		<Metadata name="Configuration.UIScomToCentrifugo.Logo" id="9cbb9f5c-346f-481c-a0e3-32596311c019.1" configVersion="4079eb28b5d8864a8e850f3bdb4c631b00000000"/>
 		<Metadata name="Configuration.UIScomToCentrifugo.Splash" id="9cbb9f5c-346f-481c-a0e3-32596311c019.2" configVersion="41876e698d18ab4cba9ae1ae19b7378600000000"/>
 		<Metadata name="Constant.APIkeyCentrifugo" id="04886a96-081c-43b6-886f-8bb38733928f" configVersion="e51236a14257f94589a32a4bec6532a300000000"/>
 		<Metadata name="Constant.СерверCentrifugo" id="d81d8793-cefd-44dd-b5ae-32038eb10f72" configVersion="d50adb78715bc742aaa39c4a06ad6c6c00000000"/>
-		<Metadata name="HTTPService.UIScom" id="51e52d1c-7b89-425a-ae6e-7232ef0e7e03" configVersion="711d97092839d64cbc1dc1ac80e9559000000000">
+		<Metadata name="HTTPService.UIScom" id="51e52d1c-7b89-425a-ae6e-7232ef0e7e03" configVersion="e28bc96f9538a042ba81028e834aa6a300000000">
 			<Metadata name="HTTPService.UIScom.URLTemplate.Пинг" id="153d03cd-4357-483d-93f9-78781cff2958"/>
 			<Metadata name="HTTPService.UIScom.URLTemplate.RecordEnd.Method.REC" id="52877c15-c677-41e2-9fb7-7d49a5477715"/>
 			<Metadata name="HTTPService.UIScom.URLTemplate.OutcomingCall" id="58d806a2-844f-4d79-8803-ae61f61dead4"/>
@@ -24,8 +24,8 @@
 			<Metadata name="HTTPService.UIScom.URLTemplate.Пинг.Method.GET" id="d1f6a419-d5bf-4f58-9c06-669ddcc5d1f6"/>
 			<Metadata name="HTTPService.UIScom.URLTemplate.IncomingCall" id="d9579ca3-06a5-4375-87ed-eaa87b4eb28f"/>
 		</Metadata>
-		<Metadata name="HTTPService.UIScom.Module" id="51e52d1c-7b89-425a-ae6e-7232ef0e7e03.0" configVersion="8f92ffde7ed9434794b329bcffe3f6b800000000"/>
-		<Metadata name="InformationRegister.ИсторияЗвонков" id="6bb9d334-ef5e-4d44-b3ed-3a6d98bda274" configVersion="1193c1455fd21e488fb583f21850697000000000">
+		<Metadata name="HTTPService.UIScom.Module" id="51e52d1c-7b89-425a-ae6e-7232ef0e7e03.0" configVersion="2f4fb98e6a5b344aa9cd6b168be5d1b500000000"/>
+		<Metadata name="InformationRegister.ИсторияЗвонков" id="6bb9d334-ef5e-4d44-b3ed-3a6d98bda274" configVersion="bc5e0e72f4e4c74d91ad00aff1fd0e6b00000000">
 			<Metadata name="InformationRegister.ИсторияЗвонков.Resource.ВремяОжидания" id="09e8ce32-6ffe-4d1d-9e88-690c0132890e"/>
 			<Metadata name="InformationRegister.ИсторияЗвонков.Resource.ИмяСобытия" id="136a3630-9356-429a-aa47-9a3d9a89d5a1"/>
 			<Metadata name="InformationRegister.ИсторияЗвонков.Resource.СсылкаНаЗапись" id="223ae212-041b-4924-92ea-c8003fa6d8b2"/>
@@ -43,7 +43,7 @@
 		</Metadata>
 		<Metadata name="InformationRegister.ИсторияЗвонков.Form.ФормаЗаписи" id="c93496cb-41b5-4a27-8681-9c25f3b433fa" configVersion="ec49f0481410e04288a05e3d95493adb00000000"/>
 		<Metadata name="InformationRegister.ИсторияЗвонков.Form.ФормаЗаписи.Form" id="c93496cb-41b5-4a27-8681-9c25f3b433fa.0" configVersion="933e0493d4cf284abe35c329d4fd919700000000"/>
-		<Metadata name="InformationRegister.ИсторияЗвонков.ManagerModule" id="6bb9d334-ef5e-4d44-b3ed-3a6d98bda274.2" configVersion="ef7b7d4227500f4fb8caa30f73f713a400000000"/>
+		<Metadata name="InformationRegister.ИсторияЗвонков.ManagerModule" id="6bb9d334-ef5e-4d44-b3ed-3a6d98bda274.2" configVersion="824ac034e11acc428a0d0f526300b9c200000000"/>
 		<Metadata name="Language.Русский" id="b982a372-b3e1-48f2-9131-dee5e13bf676" configVersion="64a684f9426e784e99b280f1b1ef074d00000000"/>
 		<Metadata name="Subsystem.UIScom" id="97f147a2-40fd-4b63-a76c-8abe268ef43a" configVersion="9652fab33ff2424180928e55995ea99a00000000"/>
 		<Metadata name="Subsystem.UIScom.Help" id="97f147a2-40fd-4b63-a76c-8abe268ef43a.0" configVersion="f309d63b174ab94797e8fc515f03dabb00000000"/>
