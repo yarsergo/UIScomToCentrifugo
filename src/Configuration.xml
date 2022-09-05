@@ -49,7 +49,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>YarSergo</Vendor>
-			<Version>1.0.8.02.1130</Version>
+			<Version>1.0.9.05.1015</Version>
 			<UpdateCatalogAddress>https://github.com/yarsergo/UIScomToCentrifugo/releases</UpdateCatalogAddress>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
